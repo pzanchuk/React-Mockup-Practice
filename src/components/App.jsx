@@ -1,13 +1,23 @@
 import React from "react";
 import Header from "./Header";
-import TicketList from "./TicketList";
+import Body from "./Body";
+
+
+
+
 
 
 function App(){
+
+  var myStyle = {
+
+    marginLeft: '10%',
+    marginRight: '10%',
+  }
   return (
-    <div>
+    <div style={myStyle}>
       <Header/>
-      <TicketList/>
+      <Body/>
     </div>
   );
 }

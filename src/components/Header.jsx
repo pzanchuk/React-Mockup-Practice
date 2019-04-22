@@ -1,8 +1,16 @@
 import React from "react";
+import LeftHeader from "./LeftHeader";
+import RightHeader from "./RightHeader";
 
 function Header(){
+
   return (
-    <h1>Help Queue!</h1>
+  <div>
+    <div>
+     <LeftHeader/>
+     <RightHeader/>
+    </div> 
+  </div>
   );
 }
 
